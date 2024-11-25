@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/media.css" />
+    <title>Fitness</title>
+</head>
+
+<body>
+
+    <main id="main">
+        <!-- Step 1: Gender Selection -->
+        <section id="welcome-section" class="step active banner-section">
+            <div class="container">
+                <div class="banner-wrapper">
+                    <h1>
+                        Achieve Your Dream Figure with Quick and Effective Workouts.
+                    </h1>
+                    <p>
+                        Take this 30-second quiz<br />
+                        to find out how
+                    </p>
+                    <div class="gender-selection">
+                        <label class="radio-card">
+                            <input type="radio" name="start" value="women" />
+                            <div>
+                                <img src="./assets/images/female.svg" alt="Women Icon" />
+                                <span class="label-text">Women Start Here</span>
+                            </div>
+                        </label>
+                        <label class="radio-card">
+                            <input type="radio" name="start" value="men" />
+                            <div>
+                                <img src="./assets/images/male.svg" alt="Men Icon" />
+                                <span class="label-text">Men Start Here</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="desktop-journal">
+                    <div class="journals">
+                        <img src="./assets/images/women-health.png" alt="Jornals" />
+                        <img src="./assets/images/forbes.png" alt="Jornals" />
+                        <img src="./assets/images/mayo-clinic.png" alt="Jornals" />
+                        <img src="./assets/images/street-jornal.png" alt="Jornals" />
+                        <img src="./assets/images/vogue.png" alt="Jornals" />
+                    </div>
+                </div>
+                <div class="mobile-journal">
+                    <div class="journals">
+                        <div>
+                            <img src="./assets/images/women-health.png" alt="Jornals" />
+                            <img src="./assets/images/forbes.png" alt="Jornals" />
+                        </div>
+                        <div>
+                            <img src="./assets/images/vogue.png" alt="Jornals" />
+                            <img src="./assets/images/street-jornal.png" alt="Jornals" />
+                            <img src="./assets/images/mayo-clinic.png" alt="Jornals" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 2: Question 1 -->
+        <section id="step-1" class="step">
+            <div class="container">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="card-heading">
+                            <h3>
+                                Achieve Your Dream Figure with Quick and Effective Workouts.
+                            </h3>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h4>
+                                Do you think hours of cardio is beneficial for fat loss?
+                            </h4>
+                            <p>(Many people think doing cardio every day is the answer.)</p>
+
+                            <div class="options">
+                                <label for="yes" class="radio-card">
+                                    <input type="radio" id="yes" name="answer1" value="yes" />
+                                    <div><span>Yes</span></div>
+                                </label>
+                                <label for="no" class="radio-card">
+                                    <input type="radio" id="no" name="answer1" value="no" />
+                                    <div><span>No</span></div>
+                                </label>
+                                <label for="not-sure" class="radio-card">
+                                    <input type="radio" id="not-sure" name="answer1" value="not-sure" />
+                                    <div><span>Not Sure</span></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <button class="prev-button" aria-label="Previous">
+                                <img src="./assets/images/arrow_back_ios_new.svg" alt="Arrow" />
+                            </button>
+                            <span class="slide-indicator">2/5</span>
+                            <button class="next-button" aria-label="Next">
+                                <img src="./assets/images/arrow_forward_ios.svg" alt="Arrow" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 3: Question 2 -->
+        <section id="step-2" class="step">
+            <div class="container">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="card-heading">
+                            <h3>
+                                Achieve Your Dream Figure with Quick and Effective Workouts.
+                            </h3>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <h4>
+                                If there was a 7-minute routine to get you fit, would you want
+                                to add it to your daily routine?
+                            </h4>
+                            <p>
+                                (Certain exercise routines can help ignite your metabolism for
+                                faster fat burn).
+                            </p>
+
+                            <div class="options">
+                                <label for="definitely" class="radio-card">
+                                    <input type="radio" id="definitely" name="answer2" value="definitely" />
+                                    <div><span>Definitely</span></div>
+                                </label>
+                                <label for="maybe" class="radio-card">
+                                    <input type="radio" id="maybe" name="answer2" value="maybe" />
+                                    <div><span>Maybe</span></div>
+                                </label>
+                                <label for="notsure" class="radio-card">
+                                    <input type="radio" id="not-sure" name="answer2" value="notsure" />
+                                    <div><span>Not Sure</span></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <button class="prev-button" aria-label="Previous">
+                                <img src="./assets/images/arrow_back_ios_new.svg" alt="Arrow" />
+                            </button>
+                            <span class="slide-indicator">3/5</span>
+                            <button class="next-button" aria-label="Next">
+                                <img src="./assets/images/arrow_forward_ios.svg" alt="Arrow" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 4: Loading Page -->
+        <section id="loading-page" class="step">
+            <div class="container">
+                <div class="progress-circle-main">
+                    <div class="card-heading">
+                        <h2>
+                            Achieve Your Dream Figure with Quick and Effective Workouts.
+                        </h2>
+                        <h3>
+                            Please wait while we match you with the best routine for maximum
+                            fat loss...
+                        </h3>
+                    </div>
+                    <div class="progress-circle">
+                        <div class="progress-dot-circle">
+                            <div class="progress-dot"></div>
+                        </div>
+                        <div class="loading-bar"></div>
+                        <div class="purple-progress">
+                            <div class="progress-inner">
+                                <div class="load">
+                                    <span class="loading-percentage">0</span>
+                                    <span class="percentage-symbol"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 5: Results -->
+        <section id="results-page" class="step">
+            <div class="container">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="card-heading">
+                            <h3>
+                                Achieve Your Dream Figure with Quick and Effective Workouts.
+                            </h3>
+                            <h5>Great News</h5>
+                            <p>Your ideal fat burning routine has been calculated!</p>
+                            <p>
+                                Based on your answers, we’ve identified one simple method that
+                                you can start doing TODAY to help maximize results, in
+                                mini-mal time
+                            </p>
+                            <p>
+                                Don’t worry... it doesn’t require long hours in the gym,
+                                running miles on a treadmill, or some super intense cardio
+                                workout.
+                            </p>
+                            <p>
+                                Instead, this little-known “S.I.T. routine” can be done from
+                                the convenience of home, using your body’s own resistance, in
+                                just 7-minutes a day.
+                            </p>
+                            <p>
+                                But here’s the kicker: The special, hyper-focused movements
+                                have the potential to burn fat hours later, even while you
+                                sleep!
+                            </p>
+                            <p>
+                                In the free presentation below, world renowned nutrition,
+                                fitness and weight loss expert, Meredith Shirk, explains it
+                                all.
+                            </p>
+                            <p>
+                                Discover the virtually foolproof way to finally melt off
+                                stubborn fat, regardless of your age or activity level,
+                                revealing a thinner, leaner, more toned body that you’ll
+                                absolutely LOVE!
+                            </p>
+                            <p>
+                                (This major metabolic breakthrough has already helped
+                                thousands of women get the body of thei dreams... and you
+                                could be next.)
+                            </p>
+                            <a class="presentation-btn" href="javascript:void(0)">
+                                Watch Presentation Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-copy-menu">
+                    <p>© 2024 Cool Company, All Rights Reserved</p>
+                    <ul>
+                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0)">Terms of Services</a></li>
+                        <li><a href="javascript:void(0)">Contact Us</a></li>
+                    </ul>
+                </div>
+                <p>
+                    Content, images, and assets on this site may not be reproduced,
+                    transmitted, cached, distributed, or used in any way without prior
+                    written consent. This site does not offer professional medical
+                    advice or services. The ideas, procedures, and suggestions provided
+                    here are not a substitute for consulting your physician and should
+                    be used only as part of planning your overall health and fitness
+                    plan with medical supervision. Our Terms of Service limit liability,
+                    and you must read and agree to them before using this site. This
+                    information is not intended to diagnose, treat, cure, or prevent any
+                    disease. Your results may differ from any claims or testimonials.
+                    Typical results are not guaranteed; most people do not achieve
+                    results because they do not take consistent action. The examples
+                    shown are of individuals who made lifestyle changes and are not
+                    typical. Achieving results requires commitment and adherence to a
+                    plan
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script>
+        // Get all the radio buttons for gender selection
+        const genderRadioButtons = document.querySelectorAll(
+            'input[type="radio"][name="start"]'
+        );
+
+        // Function to show Step 1 (Question 1)
+        function showStep1() {
+            document.getElementById("welcome-section").classList.remove("active");
+            document.getElementById("welcome-section").classList.add("fade-out");
+            document.getElementById("step-1").classList.add("active");
+            document.getElementById("main").style.overflow = "auto";
+        }
+
+        // Event listener for gender selection to move to Step 1
+        genderRadioButtons.forEach((button) => {
+            button.addEventListener("change", () => {
+                showStep1(); // Move to step 1 after selecting gender
+            });
+        });
+
+        // Handle the "click" event for Step 1 radio buttons
+        document
+            .querySelectorAll("#step-1 input[type='radio']")
+            .forEach((radio) => {
+                radio.addEventListener("click", () => {
+                    document.getElementById("step-1").classList.remove("active");
+                    document.getElementById("step-2").classList.add("active");
+                });
+            });
+
+        // Handle the "click" event for Step 2 radio buttons
+        document
+            .querySelectorAll("#step-2 input[type='radio']")
+            .forEach((radio) => {
+                radio.addEventListener("click", () => {
+                    document.getElementById("step-2").classList.remove("active");
+                    document.getElementById("loading-page").classList.add("active");
+                    setLoadingPercentage(); // Trigger loading animation
+                });
+            });
+
+        // Loading percentage animation
+        function setLoadingPercentage() {
+            let percentage = 0;
+            const maxPercentage = 100;
+            const interval = 50;
+
+            // Add spinning animation
+            document.querySelector(".progress-dot-circle").classList.add("spin");
+            document.getElementById("step-2").addEventListener("click", () => {
+                const progress = document.querySelector(".progress");
+                progress.style.width = "25%";
+            });
+            const loop = setInterval(function () {
+                // Update percentage text
+                document.querySelector(".loading-percentage").textContent =
+                    percentage + "%";
+
+                // Check if loading is complete
+                if (percentage === maxPercentage) {
+                    clearInterval(loop);
+
+                    // Transition to the results page
+                    setTimeout(() => {
+                        document
+                            .getElementById("loading-page")
+                            .classList.remove("active");
+                        document.getElementById("results-page").classList.add("active");
+                        document.getElementById("main").style.overflow = "auto";
+                    }, 1000);
+                }
+
+                percentage++;
+            }, interval);
+        }
+
+        // Optional: Reset overflow for smooth transitions
+        document.getElementById("main").style.overflow = "hidden";
+    </script>
+</body>
+
+</html>

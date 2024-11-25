@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1024px) and (min-width: 375px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .banner-section {
+        padding: 40px 0;
+        background-image: url('./images/banner-image.png');
+        background-size: contain;
+        background-position: calc(100% - -45px) center;
+        height: 844px;
+    }
+
+    .banner-wrapper {
+        width: 100%;
+        gap: 24px;
+    }
+
+    .banner-section h1 {
+        font-size: clamp(38px, 5vw, 75px);
+        line-height: clamp(50px, 6vw, 80px);
+    }
+
+    .gender-selection {
+        flex-direction: column;
+        padding: 120px 0 80px;
+    }
+
+    .radio-card {
+        padding: 16px;
+    }
+
+    .desktop-journal {
+        display: none;
+    }
+
+    .mobile-journal {
+        display: block;
+    }
+
+    .journals {
+        height: 20px;
+        position: unset;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .journals div {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .journals div:first-child img:nth-child(1) {
+        width: 100px;
+    }
+
+    .journals div:first-child img:nth-child(2) {
+        width: 75px;
+    }
+
+    .journals div:nth-child(2) img:nth-child(1) {
+        width: 55px;
+    }
+
+    .journals div:nth-child(2) img:nth-child(2) {
+        width: 180px;
+    }
+
+    .journals div:nth-child(2) img:nth-child(3) {
+        width: 36px;
+        height: 40px;
+    }
+
+    .step {
+        height: unset;
+        padding: 60px 0;
+    }
+
+    .card {
+        padding: 24px 16px;
+    }
+
+    input[type="radio"] {
+        width: 14px;
+        height: 14px;
+        outline: 1px solid var(--black-1);
+    }
+
+    #loading-page {
+        background-image: url('./images/background-percent-mobile.png');
+        padding: 60px 0;
+        height: 900px;
+    }
+
+    .progress-circle-main {
+        width: 100%;
+    }
+
+    .progress-circle {
+        height: 200px;
+        width: 200px;
+    }
+
+    .presentation-btn {
+        padding: 16px;
+    }
+
+    .footer-wrapper {
+        gap: 40px;
+    }
+
+    .footer-copy-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+}
