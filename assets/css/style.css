@@ -38,7 +38,7 @@ body {
 }
 
 main {
-    background-image: url('./images/background-image.png');
+    background-image: url('./../images/background-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -63,7 +63,7 @@ main::before {
 /* Banner */
 .banner-section {
     padding: 100px 0;
-    background-image: url('./images/banner-image.png');
+    background-image: url('./../images/banner-image.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: calc(100% - -116px) top;
@@ -389,7 +389,7 @@ input[type="radio"]:checked {
 }
 
 #loading-page {
-    background-image: url('./images/background-percent.png');
+    background-image: url('./../images/background-percent.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

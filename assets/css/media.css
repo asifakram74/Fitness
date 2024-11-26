@@ -5,7 +5,7 @@
 
     .banner-section {
         padding: 40px 0;
-        background-image: url('./images/banner-image.png');
+        background-image: url('./../images/banner-image.png');
         background-size: contain;
         background-position: calc(100% - -45px) center;
         height: 844px;
@@ -91,7 +91,7 @@
     }
 
     #loading-page {
-        background-image: url('./images/background-percent-mobile.png');
+        background-image: url('./../images/background-percent-mobile.png');
         padding: 60px 0;
         height: 900px;
     }
